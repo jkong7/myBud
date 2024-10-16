@@ -5,6 +5,8 @@ import useLocalStorage from '../hooks/useLocalStorage';
 //1. Create the context using React.createcontext(defaultvalue)
 const BudgetsContext = React.createContext()
 
+export const UNCATEGORIZED_BUDGET_ID = "Uncategorized"
+
 //Shorthand custom hook that gets useContext(BudgetsContext), everything 
 //wrapped in the provider component has access to all of the values now through
 //useBudgets()
